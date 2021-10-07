@@ -3,7 +3,7 @@ import './App.css';
 import { Route } from 'react-router-dom';
 import explore from './components/explore';
 import homepage from './components/homepage';
-import transactions from './components/transactions';
+import asset from './components/asset';
 
 
 function App() {
@@ -11,10 +11,7 @@ function App() {
     <div className="App">
       <Route exact path='/' component={homepage} />
       <Route exact path='/explore' component={explore} />
-      <Route exact path='/transactions/:_id' component={transactions} />
-
-
-
+      <Route exact path='/asset/:id' component={asset} />
     </div>
   );
 }

@@ -5,10 +5,10 @@ import React from "react";
 
 function card(props){
     return (
-        <Link to={`tranactions/${props._id}`} >
+        
         <Flex padding='5'>
                 <Box borderWidth="1px" borderRadius="lg" overflow="hidden" alignItems='baseline'>
-                    <Image src={props.nftUrl} alt='nft image' />
+                    <Link to={`asset/${props._id}`} ><Image src={props.nftUrl} alt='nft image' /></Link>
                     <Divider/>
                     <Box color='white'>
                         <Heading fontWeight='light' ml="2" fontSize='3xl'>{props.nftTitle}</Heading>
@@ -17,7 +17,7 @@ function card(props){
                     </Box>
                 </Box>
         </Flex>
-        </Link>
+        
     )
 }
 

@@ -2,7 +2,7 @@ import React from "react";
 import Header from './header';
 import Mainview from './mainview';
 import Footer from './footer';
-import Nftdisplay from './nftdisplay';
+import Nftdisplay from './nftDisplayRecent';
 
 function homepage(){
     return(

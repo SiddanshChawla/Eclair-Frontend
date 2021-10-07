@@ -1,8 +1,6 @@
 import {Heading, SimpleGrid } from '@chakra-ui/layout';
-import { Divider } from '@chakra-ui/react';
-import { Link } from 'react-router-dom';
 import Card from '../components/card';
-import nftExplore from '../nftExplore';
+import data from '../data';
 
 function nftdisplay(){
     return (
@@ -11,7 +9,7 @@ function nftdisplay(){
             <br/>
             <br/>
                 <SimpleGrid columns={5} justifyContent='center'>
-                        {nftExplore.map(nftItem => (
+                        {data.nftExplore.map(nftItem => (
                         <Card
                         key={nftItem.key}
                         _id = {nftItem._id}
