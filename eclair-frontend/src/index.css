@@ -14,6 +14,7 @@ code {
 
 .text{
   font-family: 'Fira Code';
+  color: white;
 }
 
 .parent {
@@ -48,5 +49,5 @@ code {
 .nftdisplaypage{
   background-color: #19323C;
   font-family: 'Fira Code';
-  padding: 60px;
+  padding: 100px;
 }

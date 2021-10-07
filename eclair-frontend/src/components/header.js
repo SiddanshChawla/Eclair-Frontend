@@ -41,14 +41,14 @@ function header(){
 
     return(
         <Flex height='172px' width='full' padding='5' backgroundColor='#19323C' className='text'>
-            <HStack spacing='20px'>
+            <HStack spacing='20px' >
                 <Image src={eclairlogo} height='170px'/>
                 <Link to='/'>
                     <Heading fontFamily='Fira Code' color='white'>eclair</Heading>
                 </Link>
                 <Spacer/>
 
-                <Input id='searchInput' placeholder="enter nft details" width='700px' rounded='50' color='white' onKeyPress={handleSearch}/>
+                <Input id='searchInput' placeholder="Title, Artist, NFT name" width='700px' rounded='50' color='white' onKeyPress={handleSearch}/>
                   
                 <Spacer />
                 <HStack spacing='5' color='white'>

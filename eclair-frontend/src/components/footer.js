@@ -6,7 +6,7 @@ const iconSize = '40px';
 
 function footer() {
     return(
-        <Flex backgroundColor='#F3F7F0' padding='5' className='text'>
+        <Flex backgroundColor='#506369' padding='5' className='text'>
             <HStack width='full' mx='10'>
                 <HStack spacing='20'>
                     <Text>

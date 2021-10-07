@@ -6,11 +6,11 @@ import Nftdisplay from './nftdisplay';
 
 function homepage(){
     return(
-        <div className="App">
-      <Header/>
-      <Mainview />
-      <Nftdisplay />
-      <Footer/>
+      <div className="App">
+        <Header/>
+        <Mainview />
+        <Nftdisplay />
+        <Footer/>
     </div>
     );
 };

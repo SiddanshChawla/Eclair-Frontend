@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function mainview() {
     return(
-        <Flex backgroundColor='#19323C' padding='5' height='505px' className='text'>
+        <Flex backgroundColor='#19323C' padding='16' height='505px' className='text'>
             <HStack width='full' mx='10'>
                 <VStack width='50%' spacing='5%' alignItems='flex-start'>
                     <Heading textAlign='left' color='#F3F7F0' fontFamily='Fira Code'>Discover, Mint and Collect {<br />}  NFTs on the first ever {<br/>} <font color='#F2545B'> revenue sharing </font> marketplace. </Heading>
