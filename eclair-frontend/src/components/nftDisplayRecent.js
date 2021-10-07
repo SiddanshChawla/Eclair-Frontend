@@ -11,6 +11,7 @@ function nftdisplay(){
                     {dataRecent.nftExplore.map(nftItem => (
                     <Card
                     key={nftItem.key}
+                    _id = {nftItem._id}
                     nftUrl={nftItem.Url}
                     nftTitle={nftItem.Title}
                     nftPrice={nftItem.Price}
