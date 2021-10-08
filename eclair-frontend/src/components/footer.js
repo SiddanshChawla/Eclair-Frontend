@@ -14,7 +14,7 @@ function footer() {
                     </Text>
                     <HStack spacing='16'>
                             <Link href="https://www.instagram.com/eclair.app/" isExternal> <FaInstagram size={iconSize} color= '#D53F8C'/></Link>
-                            <Link href="" isExternal> <FaDiscord size={iconSize} color='#805AD5'/></Link>
+                            <Link href="https://discord.io/eclairapp" isExternal> <FaDiscord size={iconSize} color='#805AD5'/></Link>
                             <Link href="https://twitter.com/eclairapp" isExternal> <FaTwitter size={iconSize} color='#0BC5EA'/></Link>
                     </HStack>
                 </HStack>
