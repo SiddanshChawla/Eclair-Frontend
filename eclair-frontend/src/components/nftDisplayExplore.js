@@ -5,7 +5,7 @@ import data from '../data';
 function nftdisplay(){
     return (
         <div className='nftdisplaypage'>
-            <Heading color='white' fontFamily='Fira Code' textAlign='left'>Explore Something new...</Heading>
+            <Heading color='white' fontFamily='Fira Code' textAlign='left'>Explore Something new 🔎</Heading>
             <br/>
             <br/>
                 <SimpleGrid columns={5} justifyContent='center'>
