@@ -16,15 +16,15 @@ function header(){
         var login = false;
         var loginText = '';
         if (login === true){
-            loginText = 'user page';
+            return 'user page';
         }   
         else{
-            loginText = 'sync wallet';
+            return 'sync wallet';
         }
     };
 
 
-
+    // search bar user-value saved in console
     var userSearch = "";
     function handleSearch (event){
         if (!event) event = window.event;
@@ -35,9 +35,6 @@ function header(){
         }
     }
 
-    // function scrollResult(){
-
-    // }
 
     return(
         <Flex height='172px' width='full' padding='5' backgroundColor='#19323C' className='text'>

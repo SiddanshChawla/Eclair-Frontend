@@ -24,8 +24,8 @@ code {
 }
 .image1 {
   position: relative;
-  bottom: 30px;
-  right: 30px;
+  bottom: -30px;
+  right: -30px;
 }
 .image2 {
   position: absolute;
@@ -34,8 +34,8 @@ code {
 }
 .image3 {
   position: absolute;
-  bottom: -30px;
-  right: -30px;
+  bottom: 30px;
+  right: 30px;
 }
 
 ::placeholder{
@@ -50,4 +50,13 @@ code {
   background-color: #19323C;
   font-family: 'Fira Code';
   padding: 80px;
+}
+
+.scrollable{
+  height: 550px; /* or any value */
+  overflow-y: auto;
+  width: 500px;
+  color: white;
+  margin-right: 300px;
+  text-align: center;
 }

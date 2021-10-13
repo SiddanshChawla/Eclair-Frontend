@@ -11,7 +11,7 @@ function card(props){
                     <Link to={`asset/${props._id}`} ><Image src={props.nftUrl} alt='nft image' /></Link>
                     <Divider/>
                     <Box color='white'>
-                        <Heading fontWeight='light' ml="2" fontSize='3xl'>{props.nftTitle}</Heading>
+                        <Link to={`asset/${props._id}`} ><Heading fontWeight='light' ml="2" fontSize='3xl'>{props.nftTitle}</Heading></Link>
                         <Divider />
                         <Text>{props.nftPrice}</Text>
                     </Box>

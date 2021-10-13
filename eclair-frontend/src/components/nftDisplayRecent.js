@@ -14,7 +14,7 @@ function nftdisplay(){
                     _id = {nftItem._id}
                     nftUrl={nftItem.Url}
                     nftTitle={nftItem.Title}
-                    nftPrice={nftItem.Price}
+                    
                     />
                 ))}
                 </SimpleGrid>

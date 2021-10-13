@@ -4,7 +4,7 @@ export default {
       {
         key: 1,
         _id: 1,
-        Url: 'https://picsum.photos/250?random=6', //this is the image-display-url
+        Url: 'https://picsum.photos/550?random=6', //this is the image-display-url
         Artist: "nsdonviv",
         Desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         Title: "nft1",
@@ -18,7 +18,7 @@ export default {
       {
           key: 2,
           _id: 2,
-          Url: 'https://picsum.photos/250?random=7',
+          Url: 'https://picsum.photos/550?random=7',
           Artist: "nsdonviv",
           Desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisis leo vel fringilla est ullamcorper eget nulla facilisi.",
           Title: "nft2",
@@ -32,7 +32,7 @@ export default {
     {
       key: 3,
       _id: 3,
-      Url: 'https://picsum.photos/250?random=8',
+      Url: 'https://picsum.photos/550?random=8',
       Artist: "nsdonviv",
       Desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor purus non enim praesent elementum facilisis. Duis tristique sollicitudin nibh sit amet.",
       Title: "nft3",
@@ -45,7 +45,7 @@ export default {
     {
         key: 4,
         _id: 4,
-        Url: 'https://picsum.photos/250?random=9',
+        Url: 'https://picsum.photos/550?random=9',
         Artist: "nsdonviv",
         Desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra suspendisse potenti nullam ac tortor vitae purus. Pellentesque elit eget gravida cum sociis natoque penatibus et magnis. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed.",
         Title: "nft4",
@@ -58,7 +58,7 @@ export default {
     {
       key: 5,
       _id: 5,
-      Url: 'https://picsum.photos/250?random=10',
+      Url: 'https://picsum.photos/550?random=10',
       Artist: "nsdonviv",
       Desc: "nibh praesent tristique magna sit",
       Title: "nft5",
@@ -71,7 +71,7 @@ export default {
     {
         key: 6,
         _id: 6,
-        Url: 'https://picsum.photos/250?random=11',
+        Url: 'https://picsum.photos/550?random=11',
         Artist: "nsdonviv",
         Desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         Title: "nft6",
@@ -84,7 +84,7 @@ export default {
     {
         key: 7,
         _id: 7,
-        Url: 'https://picsum.photos/250?random=12',
+        Url: 'https://picsum.photos/550?random=12',
         Artist: "nsdonviv",
         Desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         Title: "nft7",
@@ -97,7 +97,7 @@ export default {
     {
         key: 8,
         _id: 8,
-        Url: 'https://picsum.photos/250?random=13',
+        Url: 'https://picsum.photos/550?random=13',
         Artist: "nsdonviv",
         Desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         Title: "nft8",
@@ -110,7 +110,7 @@ export default {
     {
         key: 9,
         _id: 9,
-        Url: 'https://picsum.photos/250?random=14',
+        Url: 'https://picsum.photos/550?random=14',
         Artist: "nsdonviv",
         Desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         Title: "nft9",
