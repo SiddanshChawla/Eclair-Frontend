@@ -51,7 +51,16 @@ function header(){
                 <HStack spacing='5' color='white'>
                     <Link to='/explore'>explore</Link>
                     <Link>mint</Link>
-                    <Link><Button rounded='50' backgroundColor='black'>sync wallet</Button></Link>
+                    <Link>
+                        <Button rounded='50' backgroundColor='black' _hover='false' _focus='none' 
+                        _active={{
+                            textColor: 'black',
+                            backgroundColor: 'white'
+                        }}
+                        >
+                        sync wallet
+                        </Button>
+                    </Link>
                     
                 </HStack>
             </HStack>

@@ -1,5 +1,5 @@
 import { Text, Flex, Spacer, HStack, Link } from '@chakra-ui/react';
-import { FaInstagram, FaDiscord, FaTwitter } from 'react-icons/fa';
+import { FaInstagram, FaDiscord, FaTwitter, FaMedium } from 'react-icons/fa';
 import { Link as ReactRouterDom } from 'react-router-dom';
 
 const iconSize = '40px';
@@ -12,10 +12,11 @@ function footer() {
                     <Text>
                         Made with ❤️ by Team eclair
                     </Text>
-                    <HStack spacing='16'>
+                    <HStack spacing='12'>
                             <Link href="https://www.instagram.com/eclair.app/" isExternal> <FaInstagram size={iconSize} color= '#D53F8C'/></Link>
                             <Link href="https://discord.io/eclairapp" isExternal> <FaDiscord size={iconSize} color='#805AD5'/></Link>
                             <Link href="https://twitter.com/eclairapp" isExternal> <FaTwitter size={iconSize} color='#0BC5EA'/></Link>
+                            <Link href="https://rohanphww.medium.com/" isExternal> <FaMedium size={iconSize} /> </Link>
                     </HStack>
                 </HStack>
                 <Spacer />

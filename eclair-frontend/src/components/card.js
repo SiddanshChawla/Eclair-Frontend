@@ -13,7 +13,7 @@ function card(props){
                     <Box color='white'>
                         <Link to={`asset/${props._id}`} ><Heading fontWeight='light' ml="2" fontSize='3xl'>{props.nftTitle}</Heading></Link>
                         <Divider />
-                        <Text>{props.nftPrice}</Text>
+                        <Text backgroundColor='whiteAlpha.600'>{props.nftPrice}</Text>
                     </Box>
                 </Box>
         </Flex>
