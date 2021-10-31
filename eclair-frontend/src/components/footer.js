@@ -2,7 +2,7 @@ import { Text, Flex, Spacer, HStack, Link } from '@chakra-ui/react';
 import { FaInstagram, FaDiscord, FaTwitter, FaMedium } from 'react-icons/fa';
 import { Link as ReactRouterDom } from 'react-router-dom';
 
-const iconSize = '40px';
+const iconSize = '28px';
 
 function footer() {
     return(
