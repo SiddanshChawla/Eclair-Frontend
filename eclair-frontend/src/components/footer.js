@@ -27,6 +27,7 @@ function footer() {
                 </HStack>
             </HStack>
         </Flex>
+    
     )
 }
 
