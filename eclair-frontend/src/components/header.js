@@ -3,6 +3,8 @@ import { Flex, Heading, HStack, Spacer } from "@chakra-ui/layout";
 import { Input } from "@chakra-ui/input";
 import { Image } from "@chakra-ui/image";
 import eclairlogo from '../eclairlogo.png';
+//import eclair from '../eclair.png';
+import beta from '../beta1.png';
 import { Button } from "@chakra-ui/button";
 import { AiOutlineSearch } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
@@ -43,7 +45,11 @@ function header(){
                 <Image src={eclairlogo} height='170px'/>
                 <Link to='/'>
                     <Heading fontFamily='Fira Code' color='white'>eclair</Heading>
+                    
                 </Link>
+                <Image src={beta} height='35px' style={{
+                    marginLeft: 6,
+                }}/>
                 <Spacer/>
 
                 <Input id='searchInput' placeholder="Title, Artist, NFT name" width='700px' rounded='50' color='white' onKeyPress={handleSearch}/>
