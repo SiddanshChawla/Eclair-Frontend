@@ -47,8 +47,9 @@ function header(){
                     <Heading fontFamily='Fira Code' color='white'>eclair</Heading>
                     
                 </Link>
-                <Image src={beta} height='35px' style={{
+                <Image src={beta} height='30px' style={{
                     marginLeft: 6,
+                    
                 }}/>
                 <Spacer/>
 
