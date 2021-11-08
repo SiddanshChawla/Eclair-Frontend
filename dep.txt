@@ -1,0 +1,9 @@
+cd eclair-frontend
+
+npm install
+npm i React-icons
+npm i React-router-dom
+npm i  @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4
+npm i @celo-tools/use-contractkit
+
+npm start
