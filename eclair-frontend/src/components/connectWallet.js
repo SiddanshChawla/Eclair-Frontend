@@ -1,4 +1,4 @@
-import { Container, Box, Button, Text } from "@chakra-ui/react";
+import { Container, Box, Button, Text, HStack, Img, VStack, Heading } from "@chakra-ui/react";
 import { useContractKit } from "@celo-tools/use-contractkit";
 
 function ConnectCeloWallet() {
@@ -21,22 +21,26 @@ function ConnectCeloWallet() {
       }
     }
     return (
-      <Container m={10}>
+      <Container m={0} textColor = 'white' textAlign='left' width='150%'>
         <Box>
           <>
           {address ? (
-            <div> <Text style={{color: 'white'}}>Connected to </Text>{address}<br/></div>
-            
+            <HStack>
+              <Img src='https://picsum.photos/200' borderRadius='200px' padding='4'/>
+              <VStack align='flex-start' spacing='8'>
+                <VStack align='left'> 
+                  <Heading> Wallet address </Heading>
+                  <Text>{address}</Text>
+                </VStack>
+                <Button colorScheme={"yellow"} onClick={disconnectWallet} disabled={!walletConnect}> Disconnect Wallet </Button>
+              </VStack>
+            </HStack>
           ) : (
             <Button colorScheme={"green"} onClick={connectWallet} disabled={walletConnect}>
             Connect Wallet
           </Button>
           )}
           </>
-          
-          <Button colorScheme={"yellow"} onClick={disconnectWallet} ml={4} disabled={!walletConnect}>
-            Disconnect Wallet
-          </Button>
         </Box>
       </Container>
     );
