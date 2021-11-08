@@ -35,8 +35,6 @@ function header(){
         }
     }
 
-
-
     return(
         <Flex height='172px' width='full' padding='5' backgroundColor='#19323C' className='text'>
             <HStack spacing='20px' >
@@ -52,7 +50,7 @@ function header(){
                 <HStack spacing='5' color='white'>
                     <Link to='/explore'>explore</Link>
                     <Link to='/'>mint</Link>
-                    <Link to='/walletdisplay'>
+                    <Link to='/dashboard'>
                         <Button rounded='50' backgroundColor='black' _hover='false' _focus='none' 
                         _active={{
                             textColor: 'black',
