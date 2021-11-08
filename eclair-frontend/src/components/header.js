@@ -48,7 +48,7 @@ function header(){
                     
                 </Link>
                 <Image src={beta} height='30px' style={{
-                    marginLeft: 6,
+                    marginLeft: 10,
                     
                 }}/>
                 <Spacer/>
