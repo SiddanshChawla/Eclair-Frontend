@@ -25,7 +25,7 @@ function ConnectCeloWallet() {
         <Box>
           <>
           {address ? (
-            <div> <Text>Connected to </Text>{address}<br/></div>
+            <div> <Text style={{color: 'white'}}>Connected to </Text>{address}<br/></div>
             
           ) : (
             <Button colorScheme={"green"} onClick={connectWallet} disabled={walletConnect}>
