@@ -1,5 +1,6 @@
 import { Container, Box, Button, Text, HStack, Img, VStack, Heading } from "@chakra-ui/react";
 import { useContractKit } from "@celo-tools/use-contractkit";
+import Welcome from "./welcome";
 
 function ConnectCeloWallet() {
     const { connect, destroy, address } = useContractKit();
@@ -21,7 +22,7 @@ function ConnectCeloWallet() {
       }
     }
     return (
-      <Container m={0} textColor = 'white' textAlign='left' width='150%'>
+      <Container m={0} textColor = 'white' textAlign='left' ml='20'>
         <Box>
           <>
           {address ? (
@@ -36,9 +37,12 @@ function ConnectCeloWallet() {
               </VStack>
             </HStack>
           ) : (
+          <VStack spacing='8' align='left' ml='20' m={0}>
+            <Welcome/>
             <Button colorScheme={"green"} onClick={connectWallet} disabled={walletConnect}>
             Connect Wallet
           </Button>
+          </VStack>
           )}
           </>
         </Box>

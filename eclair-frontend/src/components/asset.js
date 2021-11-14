@@ -1,9 +1,7 @@
 import React from "react";
-import { Flex, Heading, HStack, VStack, Text, Divider, Spacer, Grid, GridItem } from "@chakra-ui/layout";
+import { Heading, HStack, VStack, Text, Divider } from "@chakra-ui/layout";
 import { Image } from "@chakra-ui/image";
-import { Route } from "react-router";
 import Header from './header';
-import Footer from './footer';
 import data from "../data";
 import { Table, Tbody, Tr, Td } from "@chakra-ui/table";
 import { Input } from "@chakra-ui/input";

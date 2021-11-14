@@ -1,9 +1,9 @@
-import { Divider, VStack, Text } from '@chakra-ui/react'
+import { Divider, VStack, Text, Button } from '@chakra-ui/react'
 
 function navbar(){
     return (
         <VStack width='35vh' height='70vh' spacing='50px' color='white' fontSize='20px' fontFamily='monospace'>
-            <Text>dashboard</Text>
+            <Button variant="link" textColor="white" fontSize='20px' fontFamily='monospace'>dashboard</Button>
             <Divider/>
             <Text>collection</Text>
             <Divider/>
