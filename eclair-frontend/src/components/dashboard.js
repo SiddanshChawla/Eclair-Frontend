@@ -6,6 +6,7 @@ import Footer from "./footer";
 import Navbar from "./navbar";
 import { Flex } from "@chakra-ui/layout";
 import { Divider } from "@chakra-ui/react";
+//import components from "./dashboardcomponents";
 
 function dashboard() {
   return (
@@ -23,6 +24,7 @@ function dashboard() {
       }}
     >
       <ConnectWallet />
+      
     </ContractKitProvider>
     </Flex>
     <Footer />
