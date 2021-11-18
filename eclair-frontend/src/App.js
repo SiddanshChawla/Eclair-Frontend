@@ -5,6 +5,7 @@ import explore from './components/explore';
 import homepage from './components/homepage';
 import asset from './components/asset';
 import dashboard from './components/dashboard';
+import mint from './components/mint';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Route exact path='/explore' component={explore} />
       <Route exact path='/asset/:id' component={asset} />
       <Route exact path='/dashboard' component={dashboard} />
+      <Route exact path='/mint' component={mint} />
     </div>
   );
 }

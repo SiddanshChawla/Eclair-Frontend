@@ -56,7 +56,7 @@ function header(){
                 <Spacer />
                 <HStack spacing='5' color='white'>
                     <Link to='/explore'>explore</Link>
-                    <Link to='/'>mint</Link>
+                    <Link to='/mint'>mint</Link>
                     <Link to='/dashboard'>
                         <Button rounded='50' backgroundColor='black' _hover='false' _focus='none' 
                         _active={{
